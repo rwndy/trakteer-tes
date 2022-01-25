@@ -1,0 +1,38 @@
+.main-home {
+  
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 2rem;
+  margin-top: 25rem;
+}
+
+.row {
+  display: grid;
+  gap: 3rem;
+  @include xtra-large() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include large() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include medium() {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include small() {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include xtra-small() {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}

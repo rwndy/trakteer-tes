@@ -3,7 +3,7 @@
 A. Develop apps:
   1. Clone the repo
      ```sh
-     git clone https://github.com/rwndy/trakteer-test.git
+     git clone https://github.com/rwndy/trakteer-tes.git
      ```
   2. Install packages
      ```sh
